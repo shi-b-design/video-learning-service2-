@@ -1,13 +1,10 @@
-import VideoLearningInterface from '@/components/VideoLearningInterface';
-import { todoTutorialExplanations } from '@/lib/explanations';
+import DynamicVideoLearning from '@/components/DynamicVideoLearning';
 
 export default function Home() {
+  // Directly show the specific video you're working with
   return (
     <main className="min-h-screen">
-      <VideoLearningInterface 
-        videoId="9wiWzu_tRB0"
-        explanations={todoTutorialExplanations}
-      />
+      <DynamicVideoLearning videoId="9wiWzu_tRB0" />
     </main>
-  )
+  );
 }
