@@ -1,10 +1,10 @@
-import DynamicVideoLearning from '@/components/DynamicVideoLearning';
+import FastVideoLearning from '@/components/FastVideoLearning';
 
 export default function Home() {
-  // Directly show the specific video you're working with
+  // Using static transcript from video-transcripts.ts
   return (
     <main className="min-h-screen">
-      <DynamicVideoLearning videoId="9wiWzu_tRB0" />
+      <FastVideoLearning videoId="9wiWzu_tRB0" />
     </main>
   );
 }
